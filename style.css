@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav {
+    background-color: #273c48; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    height: 4vh;
+    font-family:serif
+}
+
+.text{
+    text-transform: uppercase; 
+    margin-left: 8vw;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.list li {
+    margin-right: 80px;
+    padding: 4px;
+}
+.list a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
+
+.button {
+    color: white; 
+    border:none;
+    padding: 10px 20px;
+    margin-right: 6vw;
+    
+}
+#get{
+    border: 2px dashed white;
+    height: 5vh;
+    width: 7vw;
+    background-color: #273c48;
+    border-radius:4px; 
+    text-transform: capitalize;
+}
+#read{
+    height: 5vh;
+    width: 7vw;
+    background-color: rgb(19 229 192);
+    border-radius:4px; 
+    text-transform: capitalize;
+}
+
+
+#get:hover {
+    background-color:white; 
+} 
+#read:hover{
+    background-color: white;
+    text-transform: capitalize;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+    background-color: #3c505b;
+    color: white;
+}
+#get2{
+    
+    height: 5vh;
+    width: 7vw;
+    border-radius:4px;
+    background-color: rgb(19 229 192);
+    text-transform: capitalize;
+
+}
+#read2{
+    height: 5vh;
+    width: 7vw;
+    border-radius:4px; 
+    border: 2px dashed white;
+    background-color: #3c505b;
+}
+#get2:hover{
+    background-color:white; 
+} 
+#read2:hover{
+    background-color:white; 
+} 
+
+.text2{
+    flex: 1;
+    padding: 20px;
+    margin-left: 10vw;
+    line-height: 3rem;
+    text-transform: capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    
+}
+
+.image {
+    flex:1;
+}
+img{
+    max-width: 15vw;
+}
+.text2 h1{
+    font-size:70px; 
+    line-height: 63px;
+    font-weight: lighter;
+}
+.line1{
+display: flex;
+justify-content: space-evenly;
+margin: 20px 0 30px 0;
+}
+.card1{
+    border: 1px solid #132835;
+    background-color: #132835;
+    height: 25vh;
+    width: 15vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-transform: capitalize;
+    
+
+}
+.icon1{
+    color:rgb(19 229 192);
+    padding-left: 1.5rem;
+}
+.opt{
+    font-size: xx-small;
+    padding: 1px;
+    margin-left: 1px
+}
+.card2{
+    border: 1px solid #132835;
+    background-color: #132835;
+    height: 25vh;
+    width: 15vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-transform: capitalize;
+}
+.card3{
+        border: 1px solid #132835;
+        background-color: #132835;
+        height: 25vh;
+        width: 15vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        text-transform: capitalize;
+    }
+.line2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card4{
+        border: 1px solid #132835;
+        background-color: #132835;
+        height: 25vh;
+        width: 15vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        text-transform: capitalize;
+    }
+.card5{
+        border: 1px solid #132835;
+        background-color: #132835;
+        height: 25vh;
+        width: 15vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        text-transform: capitalize;
+    }
+.card6{
+        border: 1px solid #132835;
+        background-color: #132835;
+        height: 25vh;
+        width: 15vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        text-transform: capitalize;
+    }
+    .our{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .our p{
+        width: 50%;
+        margin-left: 25vw;
+
+    }
+.sec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+    background-color: #3c505b;
+    color: white;
+    margin-top: 6vh;
+
+}
+.sec4 {
+    text-align: center;
+    margin-top:6vh ;
+}
+.men{
+    display: flex;
+    justify-content:center ;
+    margin-top: 6vh;
+
+}
+.men1{
+    background-image:url(men-profile.jpg) ;
+    height: 25vh;
+    background-size: cover;
+    width: 20vw;
+    margin-right: 5px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.men2{
+    background-image:url(men-profile.jpg) ;
+    height: 25vh;
+    background-size: cover;
+    width: 20vw;
+    margin-right: 5px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.men3{
+    background-image:url(men-profile.jpg) ;
+    height: 25vh;
+    background-size: cover;
+    width: 20vw;
+    margin-right: 5px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.men4{
+    background-image:url(men-profile.jpg) ;
+    margin-right: 5px;
+    height: 25vh;
+    background-size: cover;
+    width: 20vw;
+    text-align: left;
+    text-transform: capitalize;
+}
+.sec5{
+    background-color: #273c48;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    justify-content:center ;
+    height: 75vh;
+}
+.sec51{
+    background-color: white;
+    border: 1px dashed black;
+    width: 60%;
+    margin-top: 6vh;
+    display: flex;
+    height: 15vh;
+}
+.sec52{
+    background-color: white;
+    border: 1px dashed black;
+    width: 60%;
+    margin-top:-2rem;
+    display: flex;
+    height: 15vh;
+}
+.sec53{
+    background-color: white;
+    border: 1px dashed black;
+    width: 60%;
+    margin-top:-2rem;
+    display: flex;
+    height: 15vh;
+    
+}
+.text5{
+    flex: 2.5;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    margin-top: 2vh;
+    
+}
+.icon5{
+    flex: 1;
+    margin-left: 6vw;
+    margin-top: 6vh;
+
+}
+.invest{
+    margin-top: 6vh;
+    text-align: center;
+    text-transform: capitalize;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.amazon{
+    margin-top: 4vh;
+}
+.ebay{
+    margin-top: 8vh;
+}
+.coca{
+    margin-top: 7vh;
+}
+.invest2{
+    width: 50%;
+    background-color: #132835;
+    text-align: left;
+    margin-left: 25vw;
+    margin-top: 3vh;
+    height:25vh ;
+    padding: 20px 0 20px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #132835;
+    border-radius: 15px;
+    
+}
+.invest21{
+    margin-top: 3vh;
+}
+.input{
+    background-color: #273c48;
+    text-align: center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 6vh;
+}
+form{
+    width: 37%;
+    background-color: #19303d;
+    height: 53vh;
+    border-radius: 10px;
+    margin-top: 43px;
+    padding-top: 30px;
+}
+.input{
+    margin-bottom: 20px;
+}
+#fullname{
+    background-color: #273c48;
+    border: 1px solid #273c48;
+    border-radius: 10px;
+    height: 35px;
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#email{
+    background-color: #273c48;
+    border: 1px solid #273c48;
+    border-radius: 10px;
+    height: 35px;
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#subject{
+    background-color: #273c48;
+    border: 1px solid #273c48;
+    border-radius: 10px;
+    height: 35px;
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#work{
+    background-color: #273c48;
+    border: 1px solid #273c48;
+    border-radius: 10px;
+    height: 50px;
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#contactus{
+    background-color: rgb(19 229 192);
+    border: 1px solid #273c48;
+    border-radius: 5px;
+    height: 30px;
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#fullname::placeholder{
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+#subject::placeholder{
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+#work::placeholder{
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+#email::placeholder{
+    padding-left: 25px;
+    text-transform: capitalize;
+}
+
+
